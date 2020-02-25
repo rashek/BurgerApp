@@ -14,7 +14,6 @@ const input = props => {
     inputClasses.push(classes.Invalid);
   }
 
-  console.log(props.elementType);
 
   switch (props.elementType) {
     case 'input':
